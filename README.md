@@ -7,8 +7,9 @@ To Develop a python program to Plot a time series data (Date/Gold Price).
 # ALGORITHM:
 1. Import the required packages like pandas and matplot
 2. Read the dataset using the pandas
-3. Plot the data according to need and can be altered monthly, or yearly.
-4. Display the graph.
+3. Convert 'Date' column to datetime.
+4. Plot 'Price' against 'Date'
+5. Display the final gold price graph.
 # PROGRAM:
 ```
 import pandas as pd
@@ -40,4 +41,4 @@ plt.show()
 
 
 # RESULT:
-Thus we have created the python code for plotting the time series of given data.
+Thus,the Python code has been created to visualize the time series of the given data.
